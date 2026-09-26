@@ -82,7 +82,6 @@ The app also provides:
 - Scikit-learn
 - Streamlit
 
-## Project Structure
 
 ## Project Structure
 
