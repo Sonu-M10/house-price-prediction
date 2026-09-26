@@ -84,13 +84,17 @@ The app also provides:
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 house-price-prediction/
 ├── data/
 │   └── kc_house_data.csv
 ├── graphs/
-├── app.py
-├── housepricemodel.py
-├── requirements.txt
+├── notebooks/
+├── src/
+│   ├── app.py
+│   └── housepricemodel.py
 ├── README.md
+├── requirements.txt
 └── .gitignore
