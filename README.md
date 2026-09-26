@@ -63,6 +63,23 @@ The model generally produced smaller percentage errors for homes in the middle p
 
 The model also showed that features such as home quality, living space, and location were important when making predictions.
 
+## What I Learned
+
+- How regression models can be used to predict continuous values like house prices.
+- How to clean a dataset before training a model.
+- How to compare different machine learning models using MAE, RMSE, and R².
+- How feature importance can help explain which variables influence predictions.
+- How to build a simple machine learning app using Streamlit.
+- How prediction errors can change depending on the price range of a house.
+
+## Interesting Things I Found
+
+- The home's grade and living space were two of the most important features in the model.
+- Location also had a strong influence on predicted prices.
+- Random Forest performed much better than the basic Linear Regression and Decision Tree models on this dataset.
+- Removing invalid records and one extreme bedroom-count anomaly improved the model's overall performance.
+- Prediction errors were generally larger in dollar terms for more expensive homes.
+
 ## Streamlit App
 
 The project includes a Streamlit web application that allows users to enter information about a home and receive an estimated price.
