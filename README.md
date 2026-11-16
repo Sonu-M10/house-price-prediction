@@ -91,6 +91,38 @@ The app also provides:
 - A +500 sqft what-if comparison
 - A feature importance chart
 
+### Running the Application Locally
+
+Clone the repository and navigate into the project folder:
+
+```bash
+git clone https://github.com/Sonu-M10/house-price-prediction.git
+cd house-price-prediction
+```
+
+Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install the required dependencies:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Launch the application:
+
+```bash
+python3 -m streamlit run src/app.py
+```
+
+The application opens in your browser and allows you to enter property details to generate a predicted house price and explore the model's estimates.
+
+Run these commands from the project root directory.
+
 ## Technologies
 
 - Python
@@ -107,7 +139,12 @@ house-price-prediction/
 ├── data/
 │   └── kc_house_data.csv
 ├── graphs/
-├── notebooks/
+│   ├── actual_vs_predicted.png
+│   ├── error_by_price_range.png
+│   ├── feature_importance.png
+│   ├── living_space_vs_price.png
+│   ├── model_comparison.png
+│   └── percentage_error_by_price_range.png
 ├── src/
 │   ├── app.py
 │   └── housepricemodel.py
